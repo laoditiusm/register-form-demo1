@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Register Form</title>
+</head>
+<body>
+    <div class="container b-radius-2">
+        <form id="register-form">
+            <div class="heading-box">
+                <h1>Register<span>.</span></h1>
+            </div>
+            <div class="form-input">
+                <input type="text" class="input-field" name="fname" id="fname" placeholder="first name">
+            </div>
+            <div class="form-input">
+                <input type="text" class="input-field" name="lname" id="lname" placeholder="last name">
+            </div>
+            <div class="form-input"> 
+                <select name="gender" id="gender" class="input-field">
+                    <option value="">Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-input">
+                <input type="email" class="input-field" name="email" id="email" placeholder="email">
+            </div>
+            <div class="form-input">
+                <input type="tel" class="input-field" name="phoneNumber" id="phoneNumber" placeholder="phone number">
+            </div>
+            <input type="submit" value="Register" id="btnSubmit" class="btn input-field b-radius-2">
+        </form>
+    </div>
+</body>
+</html>
